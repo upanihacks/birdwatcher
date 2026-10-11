@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.1
+- Fonts now include the em and en dash, so missing values show "—" instead of "?".
+
 ## 1.2
 - Offline route database (Virtual Radar Server standing data, ~620,000 callsigns, 3 MB). Routes appear
   instantly without network; adsb.lol is only asked when a callsign is missing.

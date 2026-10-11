@@ -14,7 +14,7 @@ import sys
 from PIL import Image, ImageDraw, ImageFont
 
 OUT = os.path.join(os.path.dirname(__file__), '..', 'APPS', 'Birdwatcher', 'fonts')
-CHARS = ''.join(chr(c) for c in range(32, 127)) + ''.join(chr(c) for c in range(160, 256)) + '…'
+CHARS = ''.join(chr(c) for c in range(32, 127)) + ''.join(chr(c) for c in range(160, 256)) + '…—–'
 SIZES = {'M': [10, 11, 12, 13, 15, 16, 18, 20, 24, 32], 'V': [18, 20, 22, 26, 38, 48, 64]}
 
 

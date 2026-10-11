@@ -30,7 +30,7 @@ import sdl
 BASE = os.path.dirname(os.path.abspath(__file__))
 CONFIG = os.path.join(BASE, "config.json")
 STATE = os.path.join(BASE, "state.json")
-VERSION = "1.2"
+VERSION = "1.2.1"
 
 W, H = 640, 480
 HDR, PX, FOOT = 24, 432, 78
