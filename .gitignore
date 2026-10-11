@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+APPS/Birdwatcher/log*.txt
+APPS/Birdwatcher/diagnostics.txt
+APPS/Birdwatcher/state.json
+*.zip
+.DS_Store
