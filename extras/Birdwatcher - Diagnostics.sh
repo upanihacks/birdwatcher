@@ -21,7 +21,7 @@ g.quit()
   echo "== ssl"; python3 -c "import ssl;print(ssl.OPENSSL_VERSION)" 2>&1
   echo "== network"; ip -4 addr 2>/dev/null | grep inet
   echo "== adsb.lol (https)"
-  python3 -c "import urllib.request,json;d=json.load(urllib.request.urlopen('https://api.adsb.lol/v2/point/25.25/55.36/50',timeout=10));print('OK',len(d.get('ac',[])),'aircraft')" 2>&1 | tail -1
+  python3 -c "import urllib.request,json;d=json.load(urllib.request.urlopen('https://api.adsb.lol/v2/point/51.47/-0.45/50',timeout=10));print('OK',len(d.get('ac',[])),'aircraft')" 2>&1 | tail -1
   echo "== airplanes.live (http)"
-  python3 -c "import urllib.request,json;d=json.load(urllib.request.urlopen('http://api.airplanes.live/v2/point/25.25/55.36/50',timeout=10));print('OK',len(d.get('ac',[])),'aircraft')" 2>&1 | tail -1
+  python3 -c "import urllib.request,json;d=json.load(urllib.request.urlopen('http://api.airplanes.live/v2/point/51.47/-0.45/50',timeout=10));print('OK',len(d.get('ac',[])),'aircraft')" 2>&1 | tail -1
 } >"$OUT" 2>&1
